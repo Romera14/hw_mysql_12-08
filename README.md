@@ -26,7 +26,7 @@
 2.1. С помощью официальной документации приведите пример команды резервирования данных и восстановления БД (pgdump/pgrestore).
  
 ```pg_dump dbname > /home/dbname/dump/backup```
-```pg_restore -d dbname < /home/dbname/name/backup```
+```pg_restore -d dbname < /home/dbname/dump/backup```
 
 2.1.* Возможно ли автоматизировать этот процесс? Если да, то как?
   * Можно написать скрипт, на почти любом языке, например bash.
